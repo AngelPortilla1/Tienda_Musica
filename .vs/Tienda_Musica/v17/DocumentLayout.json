@@ -7,28 +7,12 @@
       "RelativeMoniker": "D:0:0:{517F523F-8F2F-4618-96A2-05905C37A446}|Tienda_Musica\\Tienda_Musica.csproj|solutionrelative:tienda_musica\\controllers\\transaccionpedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|c:\\multiplataforma\\tienda_musica\\business\\implementations\\transaccionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|solutionrelative:business\\implementations\\transaccionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|c:\\multiplataforma\\tienda_musica\\business\\implementations\\clienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|solutionrelative:business\\implementations\\clienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|c:\\multiplataforma\\tienda_musica\\business\\interfaces\\itransaccionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|solutionrelative:business\\interfaces\\itransaccionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8A73ABA-16B8-4626-B4B1-5C3C1FFC67C1}|Core\\Core.csproj|c:\\multiplataforma\\tienda_musica\\core\\modelsview\\transaccionviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8A73ABA-16B8-4626-B4B1-5C3C1FFC67C1}|Core\\Core.csproj|solutionrelative:core\\modelsview\\transaccionviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|c:\\multiplataforma\\tienda_musica\\business\\interfaces\\iclienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iclienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{517F523F-8F2F-4618-96A2-05905C37A446}|Tienda_Musica\\Tienda_Musica.csproj|c:\\multiplataforma\\tienda_musica\\tienda_musica\\controllers\\clientepedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{517F523F-8F2F-4618-96A2-05905C37A446}|Tienda_Musica\\Tienda_Musica.csproj|solutionrelative:tienda_musica\\controllers\\clientepedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|c:\\multiplataforma\\tienda_musica\\business\\implementations\\transaccionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|solutionrelative:business\\implementations\\transaccionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD8C72AA-439D-4D49-A1C8-2AB9D4EF7360}|Infraestructura\\Infraestructura.csproj|c:\\multiplataforma\\tienda_musica\\infraestructura\\models\\tienda_musicacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +21,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{517F523F-8F2F-4618-96A2-05905C37A446}|Tienda_Musica\\Tienda_Musica.csproj|c:\\multiplataforma\\tienda_musica\\tienda_musica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{517F523F-8F2F-4618-96A2-05905C37A446}|Tienda_Musica\\Tienda_Musica.csproj|solutionrelative:tienda_musica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|c:\\multiplataforma\\tienda_musica\\business\\implementations\\clienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|solutionrelative:business\\implementations\\clienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517F523F-8F2F-4618-96A2-05905C37A446}|Tienda_Musica\\Tienda_Musica.csproj|c:\\multiplataforma\\tienda_musica\\tienda_musica\\controllers\\clientepedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{517F523F-8F2F-4618-96A2-05905C37A446}|Tienda_Musica\\Tienda_Musica.csproj|solutionrelative:tienda_musica\\controllers\\clientepedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A73ABA-16B8-4626-B4B1-5C3C1FFC67C1}|Core\\Core.csproj|c:\\multiplataforma\\tienda_musica\\core\\modelsview\\transaccionviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A73ABA-16B8-4626-B4B1-5C3C1FFC67C1}|Core\\Core.csproj|solutionrelative:core\\modelsview\\transaccionviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|c:\\multiplataforma\\tienda_musica\\business\\interfaces\\iclienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{411609A0-A5D1-42BC-8A26-586840619B10}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iclienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{517F523F-8F2F-4618-96A2-05905C37A446}|Tienda_Musica\\Tienda_Musica.csproj|c:\\multiplataforma\\tienda_musica\\tienda_musica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -145,19 +145,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TransaccionServices.cs",
               "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Implementations\\TransaccionServices.cs",
               "RelativeDocumentMoniker": "Business\\Implementations\\TransaccionServices.cs",
               "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Implementations\\TransaccionServices.cs",
               "RelativeToolTip": "Business\\Implementations\\TransaccionServices.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAUwGUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T00:11:39.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tienda_MusicaContext.cs",
+              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Infraestructura\\Models\\Tienda_MusicaContext.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Models\\Tienda_MusicaContext.cs",
+              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Infraestructura\\Models\\Tienda_MusicaContext.cs",
+              "RelativeToolTip": "Infraestructura\\Models\\Tienda_MusicaContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T00:36:12.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITransaccionServices.cs",
+              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Interfaces\\ITransaccionServices.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\ITransaccionServices.cs",
+              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Interfaces\\ITransaccionServices.cs",
+              "RelativeToolTip": "Business\\Interfaces\\ITransaccionServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T02:45:43.197Z",
               "EditorCaption": ""
             },
             {
@@ -168,61 +194,35 @@
               "RelativeDocumentMoniker": "Tienda_Musica\\Controllers\\TransaccionPedidoController.cs",
               "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Tienda_Musica\\Controllers\\TransaccionPedidoController.cs",
               "RelativeToolTip": "Tienda_Musica\\Controllers\\TransaccionPedidoController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAD4vzUAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T03:12:12.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClienteServices.cs",
-              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Implementations\\ClienteServices.cs",
-              "RelativeDocumentMoniker": "Business\\Implementations\\ClienteServices.cs",
-              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Implementations\\ClienteServices.cs",
-              "RelativeToolTip": "Business\\Implementations\\ClienteServices.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAkwGAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T23:44:53.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TransaccionViews.cs",
-              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Core\\ModelsView\\TransaccionViews.cs",
-              "RelativeDocumentMoniker": "Core\\ModelsView\\TransaccionViews.cs",
-              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Core\\ModelsView\\TransaccionViews.cs",
-              "RelativeToolTip": "Core\\ModelsView\\TransaccionViews.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T00:13:55.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITransaccionServices.cs",
-              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Interfaces\\ITransaccionServices.cs",
-              "RelativeDocumentMoniker": "Business\\Interfaces\\ITransaccionServices.cs",
-              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Interfaces\\ITransaccionServices.cs",
-              "RelativeToolTip": "Business\\Interfaces\\ITransaccionServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T02:45:43.197Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Tienda_Musica\\appsettings.json",
+              "RelativeDocumentMoniker": "Tienda_Musica\\appsettings.json",
+              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Tienda_Musica\\appsettings.json",
+              "RelativeToolTip": "Tienda_Musica\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-09T23:30:59.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IClienteServices.cs",
-              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Interfaces\\IClienteServices.cs",
-              "RelativeDocumentMoniker": "Business\\Interfaces\\IClienteServices.cs",
-              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Interfaces\\IClienteServices.cs",
-              "RelativeToolTip": "Business\\Interfaces\\IClienteServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Title": "ClienteServices.cs",
+              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Implementations\\ClienteServices.cs",
+              "RelativeDocumentMoniker": "Business\\Implementations\\ClienteServices.cs",
+              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Implementations\\ClienteServices.cs",
+              "RelativeToolTip": "Business\\Implementations\\ClienteServices.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T00:10:40.594Z",
+              "WhenOpened": "2024-04-25T23:44:53.957Z",
               "EditorCaption": ""
             },
             {
@@ -241,27 +241,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Tienda_MusicaContext.cs",
-              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Infraestructura\\Models\\Tienda_MusicaContext.cs",
-              "RelativeDocumentMoniker": "Infraestructura\\Models\\Tienda_MusicaContext.cs",
-              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Infraestructura\\Models\\Tienda_MusicaContext.cs",
-              "RelativeToolTip": "Infraestructura\\Models\\Tienda_MusicaContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Title": "TransaccionViews.cs",
+              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Core\\ModelsView\\TransaccionViews.cs",
+              "RelativeDocumentMoniker": "Core\\ModelsView\\TransaccionViews.cs",
+              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Core\\ModelsView\\TransaccionViews.cs",
+              "RelativeToolTip": "Core\\ModelsView\\TransaccionViews.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T00:36:12.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T00:13:55.89Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Tienda_Musica\\appsettings.json",
-              "RelativeDocumentMoniker": "Tienda_Musica\\appsettings.json",
-              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Tienda_Musica\\appsettings.json",
-              "RelativeToolTip": "Tienda_Musica\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-09T23:30:59.014Z"
+              "Title": "IClienteServices.cs",
+              "DocumentMoniker": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Interfaces\\IClienteServices.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IClienteServices.cs",
+              "ToolTip": "C:\\MULTIPLATAFORMA\\Tienda_Musica\\Business\\Interfaces\\IClienteServices.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IClienteServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T00:10:40.594Z"
             },
             {
               "$type": "Document",

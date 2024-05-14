@@ -72,3 +72,4 @@ C:\MULTIPLATAFORMA\Tienda_Musica\Tienda_Musica\bin\Debug\net6.0\Business.dll
 C:\MULTIPLATAFORMA\Tienda_Musica\Tienda_Musica\bin\Debug\net6.0\Core.dll
 C:\MULTIPLATAFORMA\Tienda_Musica\Tienda_Musica\bin\Debug\net6.0\Business.pdb
 C:\MULTIPLATAFORMA\Tienda_Musica\Tienda_Musica\bin\Debug\net6.0\Core.pdb
+C:\MULTIPLATAFORMA\Tienda_Musica\Tienda_Musica\obj\Debug\net6.0\Tienda_Musica.sourcelink.json

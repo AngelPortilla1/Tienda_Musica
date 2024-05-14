@@ -79,14 +79,23 @@ namespace Business.Implementations
                     IdCliente = transaccion.IdCliente
                 };
 
+                // Determinar el próximo ID disponible
+                int proximoIdTransaccion = _dbcontext.Transaccions.Any() ? _dbcontext.Transaccions.Max(t => t.IdTransaccion) + 1 : 1;
+
+                // Depurar para verificar el valor del próximo ID
+                Debug.WriteLine($"Próximo ID de transacción: {proximoIdTransaccion}");
+
+                // Asignar el ID generado a la nueva transacción
+                nuevaTransaccion.IdTransaccion = proximoIdTransaccion;
+
                 // Agregar la nueva transacción al contexto de la base de datos y guardar los cambios
                 _dbcontext.Transaccions.Add(nuevaTransaccion);
                 _dbcontext.SaveChanges();
 
-                // Actualizar el IdTransaccion en el objeto TransaccionViews
+                // Actualizar el ID de la transacción en el objeto TransaccionViews
                 transaccion.IdTransaccion = nuevaTransaccion.IdTransaccion;
 
-                // Devolver el objeto TransaccionViews actualizado con el nuevo IdTransaccion
+                // Devolver el objeto TransaccionViews actualizado con el nuevo ID de transacción
                 return transaccion;
             }
             catch (Exception ex)
