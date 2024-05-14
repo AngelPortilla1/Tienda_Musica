@@ -1,0 +1,17 @@
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\bin\Debug\net6.0\Business.deps.json
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\bin\Debug\net6.0\Business.dll
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\bin\Debug\net6.0\Business.pdb
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\obj\Debug\net6.0\Business.dll
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\obj\Debug\net6.0\refint\Business.dll
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\obj\Debug\net6.0\Business.pdb
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\obj\Debug\net6.0\ref\Business.dll
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\bin\Debug\net6.0\Infraestructura.dll
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\bin\Debug\net6.0\Infraestructura.pdb
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\obj\Debug\net6.0\Business.csproj.Up2Date
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\bin\Debug\net6.0\Core.dll
+C:\MULTIPLATAFORMA\Tienda_Musica\Business\bin\Debug\net6.0\Core.pdb

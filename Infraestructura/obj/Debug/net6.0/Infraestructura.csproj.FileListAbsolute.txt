@@ -1,0 +1,14 @@
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\obj\Debug\net6.0\Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\obj\Debug\net6.0\Infraestructura.AssemblyInfoInputs.cache
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\obj\Debug\net6.0\Infraestructura.AssemblyInfo.cs
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\obj\Debug\net6.0\Infraestructura.csproj.CoreCompileInputs.cache
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\bin\Debug\net6.0\Infraestructura.deps.json
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\bin\Debug\net6.0\Infraestructura.runtimeconfig.json
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\bin\Debug\net6.0\Infraestructura.dll
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\bin\Debug\net6.0\Infraestructura.pdb
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\obj\Debug\net6.0\Infraestructura.csproj.AssemblyReference.cache
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\obj\Debug\net6.0\Infraestructura.dll
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\obj\Debug\net6.0\refint\Infraestructura.dll
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\obj\Debug\net6.0\Infraestructura.pdb
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\obj\Debug\net6.0\Infraestructura.genruntimeconfig.cache
+C:\MULTIPLATAFORMA\Tienda_Musica\Infraestructura\obj\Debug\net6.0\ref\Infraestructura.dll
