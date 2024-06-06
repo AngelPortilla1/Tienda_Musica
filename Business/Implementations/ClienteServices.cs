@@ -52,7 +52,7 @@ namespace Business.Implementations
             var cliente = _dbcontext.Clientes.FirstOrDefault(c => c.IdCliente == id);
             if (cliente == null)
             {
-                return null; // O puedes lanzar una excepción si lo prefieres
+                return null; 
             }
 
             var clienteView = new ClienteViews
@@ -73,7 +73,18 @@ namespace Business.Implementations
             {
                 if (cliente == null)
                 {
-                    throw new ArgumentNullException(nameof(cliente));
+                    throw new ArgumentNullException(nameof(cliente), "El cliente no puede ser nulo.");
+                }
+
+                // Validar los campos obligatorios del cliente
+                if (string.IsNullOrEmpty(cliente.Nombre))
+                {
+                    throw new ArgumentException("El nombre del cliente es obligatorio.");
+                }
+
+                if (string.IsNullOrEmpty(cliente.CorreoElectronico))
+                {
+                    throw new ArgumentException("El correo electrónico del cliente es obligatorio.");
                 }
 
                 // Determinar el próximo ID disponible
@@ -98,15 +109,26 @@ namespace Business.Implementations
                 cliente.IdCliente = nuevoCliente.IdCliente;
                 return cliente;
             }
+            catch (DbUpdateException ex)
+            {
+                // Manejar errores relacionados con la base de datos
+                Debug.WriteLine($"Error al actualizar la base de datos: {ex.Message}");
+                throw new ApplicationException("Ocurrió un error al guardar los cambios en la base de datos.", ex);
+            }
+            catch (InvalidOperationException ex)
+            {
+                // Manejar errores relacionados con operaciones inválidas
+                Debug.WriteLine($"Operación inválida: {ex.Message}");
+                throw new ApplicationException("Ocurrió un error al realizar la operación solicitada.", ex);
+            }
             catch (Exception ex)
             {
-                // Manejar la excepción
-                Debug.WriteLine($"Error al crear el cliente: {ex.Message}");
-                throw; // Relanzar la excepción para que sea manejada en un nivel superior si es necesario
+                // Manejar otros tipos de errores
+                Debug.WriteLine($"Error inesperado: {ex.Message}");
+                throw new ApplicationException("Ocurrió un error inesperado al crear el cliente.", ex);
             }
         }
 
-        // ClienteServices
 
         public void ActualizarCliente(ClienteViews cliente)
         {
@@ -119,15 +141,31 @@ namespace Business.Implementations
                 throw new ArgumentException("Cliente no encontrado");
             }
 
-            // Actualizar los campos del cliente existente con los valores proporcionados en el objeto cliente
-            clienteExistente.Nombre = cliente.Nombre;
-            clienteExistente.Apellido = cliente.Apellido;
-            clienteExistente.CorreoElectronico = cliente.CorreoElectronico;
-            clienteExistente.Pais = cliente.Pais;
+            // Actualizar solo los campos proporcionados en el cliente recibido en la solicitud
+            if (!string.IsNullOrEmpty(cliente.Nombre))
+            {
+                clienteExistente.Nombre = cliente.Nombre;
+            }
+
+            if (!string.IsNullOrEmpty(cliente.Apellido))
+            {
+                clienteExistente.Apellido = cliente.Apellido;
+            }
+
+            if (!string.IsNullOrEmpty(cliente.CorreoElectronico))
+            {
+                clienteExistente.CorreoElectronico = cliente.CorreoElectronico;
+            }
+
+            if (!string.IsNullOrEmpty(cliente.Pais))
+            {
+                clienteExistente.Pais = cliente.Pais;
+            }
 
             // Guardar los cambios en la base de datos
             _dbcontext.SaveChanges();
         }
+
 
         public void EliminarCliente(int id)
         {

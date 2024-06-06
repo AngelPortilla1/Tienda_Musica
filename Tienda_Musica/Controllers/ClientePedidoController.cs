@@ -44,16 +44,33 @@ namespace Tienda_Musica.Controllers
             }
             return Ok(cliente);
         }
-        
+
 
 
         // POST api/<ClientePedidoController>
         [HttpPost]
         public ActionResult<ClienteViews> CrearCliente(ClienteViews cliente)
         {
-            var nuevoCliente = _icliente.CrearCliente(cliente);
-            return CreatedAtAction(nameof(GetCliente), new { id = nuevoCliente.IdCliente }, nuevoCliente);
+            try
+            {
+                // Llamar al servicio para crear el cliente
+                var nuevoCliente = _icliente.CrearCliente(cliente);
+
+                // Devolver respuesta Created con el nuevo cliente
+                return CreatedAtAction(nameof(GetCliente), new { id = nuevoCliente.IdCliente }, nuevoCliente);
+            }
+            catch (ArgumentException ex)
+            {
+                // Manejar errores específicos de argumentos inválidos
+                return BadRequest($"Error de validación: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                // Manejar otros tipos de errores
+                return BadRequest($"Error al intentar crear el cliente: {ex.Message}");
+            }
         }
+
 
         // PUT api/<ClientePedidoController>/5
         [HttpPut("{id}")]
@@ -61,47 +78,28 @@ namespace Tienda_Musica.Controllers
         {
             try
             {
-                // Llamar al servicio para consultar el cliente existente por su ID
-                var clienteExistente = _icliente.ConsultarServicio(id);
-
-                // Verificar si el cliente existe
-                if (clienteExistente == null)
+                // Asegurarse de que el ID del cliente coincida
+                if (id != cliente.IdCliente)
                 {
-                    return NotFound("Cliente no encontrado"); // Devolver error si el cliente no existe
-                }
-
-                // Actualizar solo los campos proporcionados en el cliente recibido en la solicitud
-                if (cliente.Nombre != null)
-                {
-                    clienteExistente.Nombre = cliente.Nombre;
-                }
-
-                if (cliente.Apellido != null)
-                {
-                    clienteExistente.Apellido = cliente.Apellido;
-                }
-
-                if (cliente.CorreoElectronico != null)
-                {
-                    clienteExistente.CorreoElectronico = cliente.CorreoElectronico;
-                }
-
-                if (cliente.Pais != null)
-                {
-                    clienteExistente.Pais = cliente.Pais;
+                    return BadRequest("El ID del cliente no coincide con el ID de la URL.");
                 }
 
                 // Llamar al servicio para actualizar el cliente
-                _icliente.ActualizarCliente(clienteExistente);
+                _icliente.ActualizarCliente(cliente);
 
                 // Devolver el cliente actualizado
-                return Ok(clienteExistente);
+                return Ok("Cliente actualizado correctamente.");
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
             }
             catch (Exception ex)
             {
                 return BadRequest($"Error al intentar actualizar el cliente: {ex.Message}");
             }
         }
+
 
         // DELETE api/<ClientePedidoController>/5
         [HttpDelete("{id}")]
