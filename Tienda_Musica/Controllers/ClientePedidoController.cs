@@ -88,7 +88,7 @@ namespace Tienda_Musica.Controllers
                 _icliente.ActualizarCliente(cliente);
 
                 // Devolver el cliente actualizado
-                return Ok("Cliente actualizado correctamente.");
+                return Ok(new { message = "Cliente actualizado correctamente." });
             }
             catch (ArgumentException ex)
             {
@@ -99,6 +99,7 @@ namespace Tienda_Musica.Controllers
                 return BadRequest($"Error al intentar actualizar el cliente: {ex.Message}");
             }
         }
+
 
 
         // DELETE api/<ClientePedidoController>/5
